@@ -1,0 +1,11 @@
+.BurgerControls {
+    width:75%;
+    margin: 0 auto;
+    background-color:rgb(210, 241, 193);
+}
+
+.BurgerControlsContainer {
+    margin-top: 20px;
+    padding-top: 20px;
+    background-color:rgb(210, 241, 193);
+}

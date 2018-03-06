@@ -1,0 +1,48 @@
+.BurgerControlAdd {
+    display:inline-block;
+    border:none;
+    padding:10px;
+    background-color:green;
+    border-radius: 5px;
+    margin-right:5px;
+    margin: 10px 10px 10px 10px;
+    
+}
+
+.BurgerControlAdd:hover {
+    display:inline-block;
+    border:none;
+    padding:10px;
+    background-color:rgb(2, 87, 2);
+    color:white;
+    cursor:pointer;
+    
+}
+
+.BurgerControlRemove {
+    display:inline-block;
+    border:none;
+    padding:10px;
+    background-color:red;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+.BurgerControlRemove:hover {
+    display:inline-block;
+    border:none;
+    padding:10px;
+    background-color:rgb(156, 7, 7);
+    border-radius: 5px;
+    color:white;
+
+}
+
+.Main {
+    text-align:center;
+    background-color:rgb(210, 241, 193);
+}
+
+.BurgerControl {
+    display:inline;
+}

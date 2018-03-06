@@ -1,0 +1,8 @@
+.Navbar {
+    background-color: lightblue;
+    height: 100px;
+    width: 100%;
+    color: red;
+    display:none;
+    text-align:center;
+}

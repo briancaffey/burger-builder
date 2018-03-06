@@ -1,0 +1,54 @@
+.Salad {
+    background-color: green;
+    height:10px;
+    border-radius: 20px;
+    width:100%;
+    margin-top:2px;
+    text-align:center;
+}
+
+.Meat {
+    background-color: brown;
+    height:40px;
+    border-radius: 20px;
+    width:90%;
+    margin: 0 auto;
+    margin-top:2px;
+}
+
+.Bacon {
+    background-color: red;
+    height:10px;
+    border-radius: 0px;
+    width:90%;
+    margin: 0 auto;
+    margin-top:2px;
+}
+
+.Cheese {
+    background-color: yellow;
+    height:15px;
+    border-radius: 0px;
+    width:95%;
+    margin: 0 auto;
+    margin-top:2px;
+}
+
+.BunTop {
+    background-color: rgb(255, 94, 0);
+    height: 60px;
+    width:93%;
+    border-radius: 15px 15px 0px 0px;
+    margin: 0 auto;
+    margin-top: 2px;
+}
+
+.BunBottom {
+    background-color: rgb(255, 94, 0);
+    height: 50px;
+    width:93%;
+    border-radius: 0px 0px 15px 15px;
+    margin: 0 auto;
+    margin-top: 2px;
+
+}
