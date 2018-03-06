@@ -6,7 +6,6 @@
     border-radius: 5px;
     margin-right:5px;
     margin: 10px 10px 10px 10px;
-    
 }
 
 .BurgerControlAdd:hover {
@@ -16,7 +15,6 @@
     background-color:rgb(2, 87, 2);
     color:white;
     cursor:pointer;
-    
 }
 
 .BurgerControlRemove {
@@ -35,14 +33,20 @@
     background-color:rgb(156, 7, 7);
     border-radius: 5px;
     color:white;
-
 }
 
 .Main {
     text-align:center;
     background-color:rgb(210, 241, 193);
+    display:inline;
+    margin:0 10px;
 }
 
 .BurgerControl {
     display:inline;
+}
+
+.BurgerControlRemove:disabled {
+    cursor: not-allowed;
+    background-color:rgb(253, 105, 105);
 }

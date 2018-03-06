@@ -42,7 +42,6 @@ class Burger extends Component {
         const total = contents.total;
         
         if(contents.ingredients[type] > 0){
-
             const newTotal = total - this.prices[type];
             contents.ingredients[type] = contents.ingredients[type]-1;
             this.setState({
