@@ -1,14 +1,52 @@
 .BurgerControls {
     width:75%;
     margin: 0 auto;
+    padding-top:10px;
+    margin-top:10px;
     background-color:rgb(210, 241, 193);
-
 }
 
 .BurgerControlsContainer {
     margin-top: 20px;
-    padding-top: 20px;
     background-color:rgb(210, 241, 193);
     margin: 0 auto;
     text-align:center;
 }
+
+.Price {
+    text-align:center;
+    font-weight:bold;
+    margin-top:10px;
+}
+
+.OrderButton {
+    text-align:center;
+    border:none;
+    border-radius:5px;
+    padding:5px;
+    background-color:orange;
+    cursor:pointer;
+    margin:0 auto;
+}
+
+.OrderButton:disabled {
+    text-align:center;
+    border:none;
+    border-radius:5px;
+    padding:5px;
+    background-color:orange;
+    cursor:pointer;
+    margin:0 auto;
+    cursor:not-allowed;
+}
+
+.OrderButton:disabled  {
+    text-align:center;
+    border:none;
+    border-radius:5px;
+    padding:5px;
+    background-color:rgb(167, 105, 0);
+    color:white;
+    cursor:not-allowed;
+}
+

@@ -1,14 +1,19 @@
 import React from 'react';
 
-import Navbar from '../Navbar/Navbar';
 import Aux from '../../hoc/Aux';
-import Burger from '../../containers/Burger/Burger';
 
-const Layout = () => {
+import Toolbar from '../UI/Navigation/Toolbar/Toolbar';
+
+import classes from './Layout.css';
+
+const Layout = (props) => {
     return (
         <Aux>
-            <Navbar />
-            <Burger />
+            <Toolbar />
+            <main className={classes.Content}>
+                {props.children}
+            </main>
+
         </Aux>
     )
 }

@@ -9,7 +9,7 @@ const BurgerIngredients = (props) => {
     const ingredients = {...props.ingredients}
     for (let i in ingredients){
         for (let _ in [...Array(ingredients[i]).keys()]){
-            burger.push(<BurgerIngredient type={String(i)} />)
+            burger.push(<BurgerIngredient key={i+_} type={String(i)} />)
         }
     }
 
